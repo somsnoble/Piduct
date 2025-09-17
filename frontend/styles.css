@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #e6a7e6, #f7c9f7);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 375px; /* Mimic mobile screen width */
+    background: #f0e6f0;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    padding: 10px;
+}
+
+.time-battery {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #333;
+}
+
+.search-bar {
+    margin: 10px 0;
+    position: relative;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background: #fff;
+}
+
+.search-bar .filter-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tab {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background: #d8a1d8;
+    color: #fff;
+    cursor: pointer;
+}
+
+.tab.active {
+    background: #a64da6;
+}
+
+.barter-card {
+    position: relative;
+    background: #fff;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.report, .save {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.barter-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card-actions {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.nope, .like {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.nope { background: #ff9999; color: #fff; }
+.like { background: #99ff99; color: #fff; }
+
+.barter-details {
+    text-align: left;
+}
+
+.offer, .exchange {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background: #d8a1d8;
+    color: #fff;
+    margin: 5px 0;
+    width: 100%;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background: #fff;
+    border-top: 1px solid #ddd;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #666;
+    font-size: 18px;
+}
+
+.nav-item.active {
+    color: #a64da6;
+}
