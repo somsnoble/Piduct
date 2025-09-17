@@ -63,7 +63,3 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 });
-
-// Link the script in your HTML
-// Add this just before the </body> tag in index.html
-<script src="script.js"></script>
