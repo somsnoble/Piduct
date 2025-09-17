@@ -21,6 +21,43 @@ header {
     padding: 10px;
 }
 
+/* Existing styles remain, add these */
+@media (min-width: 768px) {
+    .container {
+        width: 90%; /* Adjust for tablets/desktops */
+        max-width: 1200px;
+    }
+
+    .barter-card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+    }
+
+    .barter-image {
+        width: 50%;
+        margin-right: 20px;
+    }
+
+    .barter-details {
+        width: 50%;
+    }
+
+    .bottom-nav {
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 1024px) {
+    .barter-card {
+        padding: 20px;
+    }
+
+    .tab {
+        padding: 12px 25px;
+    }
+}
 .time-battery {
     display: flex;
     justify-content: space-between;
